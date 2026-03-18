@@ -62,7 +62,7 @@ window.addEventListener('scroll', updateActiveLink);
 // ===== Scroll Animations =====
 function initScrollAnimations() {
     const elements = document.querySelectorAll(
-        '.stat-card, .service-card, .expertise-item, .contact-card, .contact-form, .about-content'
+        '.stat-card, .service-card, .project-card, .expertise-item, .contact-card, .contact-form, .about-content'
     );
 
     elements.forEach(el => el.classList.add('fade-in'));
